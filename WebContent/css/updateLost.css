@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+section div.content_layout div#rightcontent div#maincontent div.img-container{
+	margin-left:40%;
+	margin-top:5%;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.img-container img{
+	width:200px;
+}
+
+section div.content_layout div#rightcontent div#maincontent table{
+	width:800px;
+	margin-left:30px;
+	margin-top:10%;
+}
+
+table tbody tr th{
+	background-color:#19ce60;
+	color:white;
+	border:transparent;
+	padding:10px;
+}
+
+table tbody tr td input,
+table tbody tr td textarea,
+table tbody tr td select{
+	width:600px;
+	font-size:17px;
+	padding:3px;
+}
+
+table tbody tr td select{
+	width:200px;
+	margin-bottom:10px;
+}
+
+table tbody tr td input[name=reserveAddr],
+table tbody tr td input[name=cate]{
+	width:400px;
+}
+
+table tfoot tr td{
+	border:none;
+}
+
+table tfoot tr td span{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:red;
+	font-weight:bold;
+	padding:10px;
+	transition:5s;
+}
+
+table tfoot tr td span:hover{
+	background-color:yellow;
+	border:2px solid red;
+	border-radius:20px;
+}
+
+input:read-only{
+	background-color:lightgray;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.btn-bundle{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-bottom:30px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.btn-bundle input{
+	margin-right:1rem;
+	font-size:1.2rem;
+	font-weight:bold;
+	padding:1rem;
+	border-radius:10px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.btn-bundle input[type=submit]{
+	background-color:#19ce60;
+	color:white;
+	margin-left:40px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.btn-bundle input[type=reset]{
+	background-color:#3498db;
+	color:white;
+	margin-left:40px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.btn-bundle input[type=button]{
+	background-color:#34495e;
+	color:white;
+	margin-left:40px;
+}

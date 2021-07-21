@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-size:16px;
+}
+
+div.banner{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:100px;
+}
+div.banner img{
+	width:300px;
+}
+
+div.container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+div.container input[type=text],
+div.container input[type=password]{
+	font-size:0.8rem;
+	width:330px;
+	height:44px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	color:#333;
+	line-height:1.3;
+	padding:5px;
+	margin-bottom:20px;
+	
+}
+
+div.role{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:1rem;
+	font-weight:bold;
+}
+
+div.login-container input{
+	width:100%;
+	padding:5px;
+	color:white;
+	font-size:1rem;
+	font-weight:bold;
+	border:none;
+	border-radius:5px;
+	background-color:#19ce60;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+div.signup-container input{
+	width:100%;
+	padding:5px;
+	color:#19ce60;
+	font-size:1rem;
+	font-weight:bold;
+	border:2px solid #19ce60;
+	border-radius:5px;
+	background-color:white;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+div.finder{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+div.finder input{
+	background:transparent;
+	border:none;
+	font-weight:bold;
+}
+
+div.finder input:first-child{
+	margin-right:10px;
+}
+
+hr.line{
+	margin-bottom:10px;
+}

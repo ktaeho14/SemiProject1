@@ -1,0 +1,78 @@
+@charset "UTF-8";
+section div.content_layout div#rightcontent div#maincontent table{
+	margin-left:150px;
+	border-collapse:collapse;
+}
+
+section div.content_layout div#rightcontent div#maincontent table tr th{
+	background-color:#19ce60;
+	color:white;
+	text-shadow:0 0 10px lightgray;
+}
+
+section div.content_layout div#rightcontent div#maincontent table tr td{
+	border-bottom:1px solid;
+}
+
+section div.content_layout div#rightcontent div#maincontent table tr td{
+	padding-left:30px;
+	padding-bottom:30px;
+	padding-top:30px;	
+}
+
+section div.content_layout div#rightcontent div#maincontent input[type=text]{
+	width:300px;
+	font-size:17px;
+}
+
+
+section div.content_layout div#rightcontent div#maincontent input#reserveAddr,
+section div.content_layout div#rightcontent div#maincontent input[name=cate]{
+	margin-top:10px;
+}
+
+section div.content_layout div#rightcontent div#maincontent textarea{
+	width:90%;
+}
+
+section div.content_layout div#rightcontent div#maincontent table tfoot tr td{
+	font-weight:bold;
+	transition:1s;
+	margin-left:30px;
+}
+
+section div.content_layout div#rightcontent div#maincontent table tfoot tr td:hover{
+	color:red;
+	background:yellow;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.btnBundle{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.btnBundle input{
+	border:2px solid;
+	border-color:transparent;
+	border-radius:10px;
+	margin-left:10px;
+	padding:10px;
+	font-weight:bold;
+	font-size:17px;
+	color:white;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.btnBundle input:first-child{
+	background-color:#2ecc71;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.btnBundle input:nth-child(2){
+	background-color:#3498db;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.btnBundle input:nth-child(3){
+	background-color:#34495e;
+}

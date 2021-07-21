@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.lostAnimalImg{
+	margin-left:10px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.lostAnimalImg img{
+	width:200px;
+	position:relative;
+	top:50px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.article table{
+	float:right;
+	position:relative;
+	top:-150px;
+	right:30px;
+}
+section div.content_layout div#rightcontent div#maincontent div.article-container div.article div.clearfix::after{
+	content:'';
+	clear:both;
+	display:block;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.article table{
+	border-collapse:collapse;
+	width:500px;
+	line-height:2;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.article table tr th{
+	background-color:#19ce60;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.article table tr td{
+	padding:10px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.article table tr td textarea{
+	width:90%;
+	height:100px;
+	overflow:auto;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.mod-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.mod-container input{
+	border:2px solid;
+	border-color:transparent;
+	border-radius:10px;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px;
+	margin-left:10px;
+	margin-bottom:30px;
+	color:white;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container input:first-child{
+	background-color:#19ce60;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container input:nth-child(2){
+	background-color:#3498db;
+}

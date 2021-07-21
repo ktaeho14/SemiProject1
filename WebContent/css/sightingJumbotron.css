@@ -1,0 +1,30 @@
+.jumbotron{
+          text-shadow: black 0.2em 0.2em 0.2em;
+          color: white;
+         
+          background-size: 390px;
+          height: 300px;
+      }
+
+      #dropdown1:hover{
+        background-color: gray;
+      }
+      
+      #dropdown2:hover{
+        background-color: gray;
+      }
+      #dropdown3:hover{
+        background-color: gray;
+      }
+      #dropdown4:hover{
+        background-color: gray;
+      }
+      #dropdown5:hover{
+        background-color: gray;
+      }
+      
+      
+   
+      
+      
+  

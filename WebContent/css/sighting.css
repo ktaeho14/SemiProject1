@@ -1,0 +1,13 @@
+.sighting_explanation{
+      	background-color: skyblue;
+      	border : 1px solid skyblue;
+      	border-radius : 30%;
+    	text-align : center;
+    	
+      }
+      
+.sighting_explanation .sighting_explanation_content{
+	font-size : 15px;
+	font-family: naBrush;
+	
+}

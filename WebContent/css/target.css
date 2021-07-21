@@ -1,0 +1,139 @@
+@charset "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.lostAnimalImg{
+	margin-left:10px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.lostAnimalImg img{
+	width:200px;
+	position:relative;
+	top:50px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.article table{
+	float:right;
+	position:relative;
+	top:-150px;
+	right:30px;
+}
+section div.content_layout div#rightcontent div#maincontent div.article-container div.article div.clearfix::after{
+	content:'';
+	clear:both;
+	display:block;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.article table{
+	border-collapse:collapse;
+	width:500px;
+	line-height:2;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.article table tr th{
+	background-color:#19ce60;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.article table tr td{
+	padding:10px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.mod-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container div.mod-container input{
+	border:2px solid;
+	border-color:transparent;
+	border-radius:10px;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px;
+	margin-left:10px;
+	color:white;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container input[type=button]:first-child{
+	background-color:#19ce60;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.article-container input[type=button]:nth-child(2){
+	background-color:#3498db;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.reply-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+section div.content_layout div#rightcontent div#maincontent div.reply{
+	width:90%;
+}
+section div.content_layout div#rightcontent div#maincontent div.reply-container div.reply div.reply-content{
+	width:600px;
+	display:flex;
+	justify-content:flex-start;
+	flex-wrap:wrap;
+	align-content:flex-start;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.reply-container div.reply div.reply-content input[type=text]{
+	width:300px;
+	border:3px solid black;
+	font-size:17px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.reply-container div.reply div.reply-content textarea{
+	width:600px;
+	height:100px;
+	margin-top:30px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.reply-container div.reply div.reply-content input[type=submit]{
+	margin-top:30px;
+	margin-bottom:30px;
+	border:2px solid;
+	border-color:transparent;
+	border-radius:10px;
+	background-color:#00cec9;
+	color:white;
+	font-weight:bold;
+	font-size:17px;
+	padding:10px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.reply-container div.reply div.attach-apply-content{	
+	width:100%;
+	background-color:#3498db;
+	color:white;
+	font-weight:bold;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.reply-container div.specific-btns{
+	display:flex;
+	justify-content:flex-end;
+	align-items:flex-end;
+	margin-right:10px;
+}
+
+section div.content_layout div#rightcontent div#maincontent div.reply-container div.specific-btns input[type=button]{
+	background-color:transparent;
+	color:white;
+	font-size:17px;
+	font-weight:bold;
+	margin-left:10px;
+	border-left:0;
+	border-right:2px solid white;
+	border-top:0;
+	border-bottom:0;
+	padding-right:5px;
+}

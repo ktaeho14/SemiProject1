@@ -1,0 +1,49 @@
+@charset "UTF-8";
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-size:16px;
+}
+h1{
+    font-size:2rem;
+}
+header{
+    position:sticky;
+    top:0;
+}
+header nav.nav-bar ul.menu{
+    background-color: teal;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    display:flex;
+    padding:2rem;
+}
+
+header nav.nav-bar ul.menu li{
+    margin-left:12rem;
+    list-style: none;
+}
+header nav.nav-bar ul.menu li:hover{
+    color:orange;
+}
+header nav.nav-bar div.hide{
+    display:none;
+}
+header nav.nav-bar div.drop{
+    display:flex;
+    align-content: center;
+    background-color: aliceblue;
+    border:2px solid;
+    border-radius:10px;
+}
+header nav.nav-bar div.drop ul.toggle{
+    margin-left:10rem;
+    line-height: 2;
+}
+header nav.nav-bar div.drop ul.toggle li{
+    list-style:none;
+    font-size:1rem;
+}
