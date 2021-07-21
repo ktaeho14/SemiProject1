@@ -30,3 +30,6 @@ Member_이 진욱님 @OnlyPP
 
 역할 : 페이지 전반적인 디자인, 회원가입/로그인 CRUD, 회의록 작성
 사용한 기술 : HTML, CSS, Bootstrap3, javascript, jQuery, JSP, Servlet
+
+[__.pdf](https://github.com/ktaeho14/SemiProject1/files/6855830/__.pdf)
+
