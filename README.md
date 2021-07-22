@@ -11,6 +11,11 @@ Leader_김 재훈님 @Jaehoon Kim
 역할 : 기획안 확립, 유스케이스 설계, ERD 설계, 진행상황 합본, 봉사활동 게시판
 Member_정 지수님 @JSJeong
 
+- 역할 : 실종신고 게시판 CRUD
+- 사용한 기술 : HTML, CSS, Javascript ES5, JSP, Servlet, cos.jar(file upload)
+- 적용한 디자인 패턴: 커맨드 패턴
+- 구현 내용 : 검색 조건별 페이징 조회, 무한 댓글, 플렉스 레이아웃(CSS), float
+- 로직 관련 소개는 [여기](https://github.com/hy6219/LostAnimals) 에서 짧게 살펴보실 수 있습니다
 역할 : 실종신고 게시판 CRUD
 
 Member_김 수호님 @ktaeho14
