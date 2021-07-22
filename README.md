@@ -19,10 +19,10 @@ Member_정 지수님 @JSJeong
 역할 : 실종신고 게시판 CRUD
 
 Member_김 수호님 @ktaeho14
--사용한 기술 : HTML, CSS, Javascript ES5, JSP, Servlet, cos.jar(file upload)
--역할 : 목격보호 게시판 CRUD, 공공 포털 데이터 기반 데이터 구축
--적용한 디자인 패턴: MVC2 패턴
--구현 내용 : 조견별 검색기능, 페이징 조회, 이미지 업로드, grid 레이아웃(CSS)
+- 사용한 기술 : HTML, CSS, Javascript ES5, JSP, Servlet, cos.jar(file upload)
+- 역할 : 목격보호 게시판 CRUD, 공공 포털 데이터 기반 데이터 구축
+- 적용한 디자인 패턴: MVC2 패턴
+- 구현 내용 : 조견별 검색기능, 페이징 조회, 이미지 업로드, grid 레이아웃(CSS)
 
 
 Member_박 인정님 @InJungPark
